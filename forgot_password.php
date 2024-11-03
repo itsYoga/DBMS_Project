@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Password reset link sent to $email.";
 }
 ?>
-
+a
 <!DOCTYPE html>
 <html lang="en">
 <head>
