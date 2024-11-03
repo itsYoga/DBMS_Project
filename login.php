@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if ($result->num_rows > 0) {
         $_SESSION['username'] = $username; // Set session variable
-        header("Location: welcome.php"); // Redirect to welcome page
+        header("Location: enter.php"); // Redirect to welcome page
         exit;
     } else {
         echo "Invalid username or password.";

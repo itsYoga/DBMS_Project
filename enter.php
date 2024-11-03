@@ -8,5 +8,6 @@ if (!isset($_SESSION['username'])) {
 }
 
 echo "<h1>Welcome, " . $_SESSION['username'] . "!</h1>";
+echo "<p><a href='schedule.php'>查看個人課表</a></p>"; // 新增課表查詢的連結
 echo "<p><a href='logout.php'>Logout</a></p>";
 ?>
